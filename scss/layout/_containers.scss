@@ -1,0 +1,12 @@
+.container{
+    width: 1348px; 
+    margin: auto;
+    border: 1px solid black;
+}
+
+@media (max-width:571px) {
+    .container{
+        width:375px;
+    }
+    
+}

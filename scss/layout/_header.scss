@@ -1,0 +1,394 @@
+.sup-main {
+  background: url(../../assets/images/sky.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 800px;
+  position: relative;
+}
+
+.nav {
+  &__position-img-1 {
+    position: absolute;
+    top: 331px;
+    z-index: 1;
+  }
+
+  &__position-img-2 {
+    position: absolute;
+    width: 1520px;
+    height: 612px;
+    top: 410px;
+    left: -50px;
+    z-index: 3;
+    clip-path: inset(0 30px 30px 50px);
+  }
+
+  &__position-img-3 {
+    position: absolute;
+    width: 1500px;
+    top: 570px;
+    left: 0px;
+    z-index: 7;
+    clip-path: inset(0 57px);
+    img {
+      width: 100%;
+    }
+  }
+
+  &__position-img-4 {
+    position: absolute;
+    top: 359px;
+    left: 63px;
+    border: 1px solid;
+    border-image-source: linear-gradient(
+      254.85deg,
+      rgba(232, 233, 237, 0.51) 19.57%,
+      #f1f1f1 106.98%
+    );
+    z-index: 4;
+    clip-path: inset(0 0px 0 0px);
+    &__img {
+      width: 100%;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-family: "form";
+  }
+
+  &__btn-1 {
+    display: none;
+  }
+
+  &__list {
+    display: flex;
+    gap: 40px;
+    font-family: "form";
+    text-transform: uppercase;
+  }
+
+  &__item {
+    font-family: "form";
+  }
+
+  &__btn-link {
+    cursor: pointer;
+    display: block;
+  }
+
+  &__hamb {
+    display: none;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 13.5px;
+    right: 0;
+  }
+
+  &__btn {
+    margin-right: 24px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-family: "form";
+  }
+
+  &__icon-top {
+    position: absolute;
+    top: 0;
+  }
+  &__icon-top {
+    position: absolute;
+    top: 0;
+    right: 67px;
+  }
+
+  &__icon-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 67px;
+  }
+}
+
+.hero {
+  &__gradient {
+    background: linear-gradient(
+      180deg,
+      rgba(226, 211, 206, 0) 0%,
+      rgba(226, 211, 206, 0.71) 42.71%,
+      #e2d3ce 100%
+    );
+    position: absolute;
+    left: -1px;
+    bottom: -200px;
+    width: 1445px;
+    height: 351px;
+    z-index: 19;
+  }
+  &__wrapper {
+    text-align: center;
+  }
+
+  &__sup-title {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 40.44px;
+    padding-bottom: 64px;
+  }
+
+  &__title {
+    font-size: 198px;
+    line-height: 129px;
+    font-weight: 400;
+    width: 936px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: "form";
+    color: white;
+    position: absolute;
+    top: 245px;
+    left: 243px;
+    z-index: 2;
+  }
+
+  &__min-title {
+    position: absolute;
+    left: 480px;
+    top: 500px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    z-index: 6;
+    font-size: 141.61px;
+    line-height: 141.61px;
+    font-family: "form";
+    font-weight: 200;
+    color: white;
+    padding-bottom: 335px;
+  }
+
+  &__sup-card {
+    margin-top: 761px;
+    position: relative;
+    top: -320px;
+    z-index: 20;
+    text-align: center;
+  }
+
+  &__card-title {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #79655e;
+    padding: 13px 46px 14px 46px;
+    background: white;
+    border-radius: 67px;
+    display: inline-block;
+  }
+
+  &__icon-link {
+    display: inline;
+    position: absolute;
+    left: 530px;
+    top: -9px;
+  }
+
+  &__icon-link-2 {
+    position: absolute;
+    left: 645px;
+    top: -25px;
+  }
+
+  &__big-cards {
+    background: white;
+    border-radius: 10px;
+  }
+
+  &__card-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 26px;
+  }
+
+  &__info {
+    text-align: left;
+    position: relative;
+    padding-left: 20px;
+  }
+
+  &__card-img {
+    position: absolute;
+  }
+
+  &__card-search {
+    display: flex;
+    align-items: center;
+    background: black;
+    padding: 23px;
+    border-radius: 121px;
+    &__search-img {
+      img {
+        display: inline;
+      }
+    }
+
+    h3 {
+      color: white;
+    }
+  }
+
+  &__big-cards {
+    position: absolute;
+    left: 140px;
+    bottom: -100px;
+    width: 1110px;
+  }
+
+  &__card-desc {
+    font-size: 18px;
+  }
+
+  &__min-card {
+    position: relative;
+    top: -90px;
+    z-index: 21;
+  }
+
+  &__min-img {
+    position: absolute;
+    top: -50px;
+    left: 620px;
+    z-index: -1;
+  }
+
+  &__sap-title {
+    font-size: 60px;
+    line-height: 58px;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+@media (max-width: 571px) {
+  .sup-main {
+    max-width: 420px;
+    height: 613px;
+  }
+
+  .nav {
+    &__list {
+      display: none;
+    }
+    &__position-img-1 {
+      width: 420px;
+      left: 17px;
+      bottom: 100px;
+      clip-path: inset(0 113px 0px 97px);
+      transform: scale(2);
+      transform-origin: center;
+    }
+
+    &__position-img-2 {
+      width: 500px;
+      height: 300px;
+      left: -50px;
+      top: 441px;
+      transform: scale(2);
+      clip-path: inset(0 140px 120px 150px);
+      transform-origin: center;
+    }
+
+    &__position-img-3 {
+      width: 500px;
+      transform: scale(2);
+      top: 440px;
+      left: -71px;
+      clip-path: inset(0 130px 0px 160px);
+    }
+
+    &__position-img-4 {
+     width: 100%;
+     top: 300px;
+     left: 0;
+    }
+
+    &__hamb {
+      display: block;
+    }
+
+    &__btn-1 {
+      display: block;
+      padding: 9px 13px;
+      border: 1px solid white;
+      border-radius: 61px;
+    }
+
+    &__btn-link {
+      display: none;
+    }
+
+    &__logo {
+      width: 75px;
+      height: 39px;
+    }
+  }
+
+  .hero {
+    &__title {
+      font-size: 72px;
+      line-height: 46px;
+      letter-spacing: 0;
+      width: 343px;
+      top: 230px;
+      left: 37px;
+    }
+
+    &__min-title {
+      font-size: 72px;
+      line-height: 46px;
+      top: 342px;
+      left: 88px;
+    }
+
+    &__big-cards {
+      width: 100%;
+      left: 0;
+      bottom: -100px;
+    }
+
+    &__card-wrap {
+      width: 100%;
+      gap: 24px;
+      row-gap: 36px;
+      flex-wrap: wrap;
+    }
+
+    &__card-search {
+      width: 100%;
+      justify-content: center;
+    }
+
+    &__min-card{
+      top: -174px;
+    }
+
+    &__min-img{
+      width: 86px;
+      height: 162px;
+      top: -32;
+      left: 148px;
+    }
+
+    &__sap-title{
+      font-size: 40px;
+      line-height: 44px;
+    }
+
+    
+  }
+}

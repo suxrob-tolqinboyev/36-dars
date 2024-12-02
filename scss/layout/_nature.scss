@@ -1,0 +1,159 @@
+.nature {
+  margin-top: 400px;
+
+  &__wrapper {
+    padding: 0 119px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    color: #79655e;
+  }
+
+  &__item {
+    font-size: 24px;
+    font-weight: 24px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+  &__item-1 {
+    font-size: 24px;
+    font-weight: 24px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+
+  &__item:hover {
+    color: black;
+    .icon {
+      opacity: 1;
+    }
+  }
+  &__item-1:hover {
+    color: black;
+    .icon {
+      opacity: 1;
+    }
+  }
+
+  &__link {
+    display: flex;
+  }
+
+  &__info{
+    color: white;
+  }
+
+  &__img-wrap {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+
+  &__img-card {
+    position: relative;
+  }
+
+  &__img-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 10px;
+  }
+
+  &__sup-title {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 178px;
+    left: 37px;
+    z-index: 3;
+  }
+
+  &__title {
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 105px;
+    left: 37px;
+    z-index: 3;
+  }
+
+  &__sup-info{
+    color: white;
+  }
+
+  &__desc {
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 59px;
+    left: 37px;
+    z-index: 3;
+  }
+
+  &__icon {
+    position: absolute;
+    bottom: 40px;
+    left: 296px;
+    z-index: 3;
+  }
+
+  &__price {
+    font-size: 24px;
+    position: absolute;
+    bottom: 35px;
+    left: 37px;
+    z-index: 3;
+  }
+
+  &__img {
+    img {
+      border-radius: 10px;
+    }
+  }
+}
+
+.gradient-1 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0b2034 100%);
+ width: 100%;
+ height: 335px;
+ position: absolute;
+ bottom: 0px;
+ border-radius: 0 0 10px 10px;
+}
+
+.icon {
+    width: 30px;
+    margin: auto;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+@media (max-width:571px) {
+  .nature{
+
+    &__wrapper{
+      padding: 0;
+    }
+    &__img-wrap{
+    flex-direction: column;
+    }
+
+    &__list{
+      justify-content: space-around;
+    }
+
+    &__item{
+      display: none;
+    }
+
+   
+
+   
+  }
+  
+}
